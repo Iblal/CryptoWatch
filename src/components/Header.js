@@ -15,6 +15,7 @@ import { useNavigate } from "react-router-dom";
 import {
   CryptoState
 } from "../CryptoContext";
+import AuthModal from "./Authentication/AuthModal";
 
 
 const useStyles = makeStyles((theme) => ({
@@ -79,6 +80,8 @@ function Header() {
               <MenuItem value={"USD"}>USD</MenuItem>
               <MenuItem value={"GBP"}>GBP</MenuItem>
             </Select>
+
+            
           </Toolbar>
         </Container>
       </AppBar>
